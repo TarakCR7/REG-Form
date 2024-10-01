@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="ClassWork.css">
+</head>
+<body>
+      
+
+        <div class="container">
+    
+        <h1>Welcome to Avengers Family Registration</h1>
+        <p>Please Fill the form to enter Avengers Family</p>
+        <form action="" method="post"></form>
+        
+            <label for="first-name">First Name:</label>
+            <input type="text" id="first-name"name="first-name"placeholder="Enter first name"required>
+            <label for="first-name">Last Name:</label>
+            <input type="text" id="last-name"name="last-name"placeholder="Enter Last name"required>
+            <label for="email">Emai:</label>
+            <input type="email"id="Emai" name="Emai"placeholder="Enter email Address" required>
+            <label for="dob">Date of Birth:</label>
+            <input type="date"id="dob" name="dob" required>
+            <label for="phone">Enter Phone Number:</label>
+            <input type="tel" id="phone" name="phone" required pattern="[0-9]{11}" placeholder="Enter Phone Number" required>
+            <label for="password">Enter Password:</label>
+            <input type="password" id="password" name="password" placeholder="Enter Password" required>
+
+            <label>Gender:</label>
+            
+                <label><input type="radio" name="gender" value="male">Male</label>
+                <label><input type="radio" name="gender" value="Female">Female</label>
+
+                <label for="district">District:</label>
+                <select id="district" name="district" required>
+                    <option value=""disabled selected>Select Your District</option>
+                    <option value="Dhaka">Dhaka</option>
+                    <option value="Chattogram">Chattogram</option>
+                    <option value="Rajshahi">Rajshahi</option>
+                    <option value="Gazipur">Gazipur</option>
+                    <option value="Sylhet">Sylhet</option>
+                    <option value="Cox's Bazer">Cox's Bazer</option>
+                    <option value="Others">Others</option>
+
+                </select>
+                <label class="terms">
+                    <input type="checkbox" name="tearms"> I agree with tearms and Condition
+                </label>
+           
+                <button type="submit">Submit</button>
+
+                
+            
+
+            
+
+
+           
+
+
+    
+
+
+     
+
+    </div>
+     
+</body>
+</html>
