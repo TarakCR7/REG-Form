@@ -39,10 +39,11 @@ input[type="password"],
 select {
     width: 100%;
     padding: 8px;
-    border: 1px solid #b4b4b4d3;
+    border: 1px solid #f85959;
     border-radius: 6px;
     box-sizing: border-box;
 }
+
  ::placeholder{
     color: rgb(0, 0, 0);
  }
@@ -56,4 +57,3 @@ select {
     width: 100px;
 
 }
-
