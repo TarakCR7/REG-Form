@@ -6,9 +6,9 @@
  }
  .container{
     background-color: rgb(28, 16, 39);
-    padding: 24px;
-    border-radius: 8px;
-    box-shadow: 0px 2px 8px;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 10px;
     max-width: 400px;
     margin: auto;
 
@@ -24,7 +24,7 @@
     margin-top: 10px;
  }
  label{
-    display: block;
+    display:block;
     margin: 10px 0px;
     color: #f85959;
 
@@ -39,7 +39,7 @@ input[type="password"],
 select {
     width: 100%;
     padding: 8px;
-    border: 1px solid #f85959;
+    border: 1px solid #b33636;
     border-radius: 6px;
     box-sizing: border-box;
 }
@@ -49,8 +49,8 @@ select {
  }
  button {
     background-color: #c41a1a;
-    color: white;
-    padding: 10px;
+    color: rgb(0, 0, 0);
+    padding: 8px;
     border: none;
     border-radius: 40px;
     cursor: pointer;
